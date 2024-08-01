@@ -82,14 +82,15 @@ section {
     border: 2px solid transparent;
     border-radius: 10px;
     transition: transform 0.3s ease, border-color 0.3s ease;
-    animation: fadeIn 2s ease-out;
     max-width: 80%;
     margin: 1em auto;
 }
 
 section:hover {
     transform: scale(1.05);
-    border-color: #00ffcc;
+    border: 2px solid;
+    border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    border-image-slice: 1;
 }
 
 h2 {
