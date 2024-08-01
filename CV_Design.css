@@ -294,3 +294,87 @@ h2 {
     font-size: 1.1em;
     margin: 0.5em 0;
 }
+
+.hobbies {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 1.5em;
+    margin: 1em auto;
+    max-width: 80%;
+    color: white;
+    animation: fadeIn 2s ease-out;
+}
+
+.hobbies h2 {
+    color: #ffa500; /* Orange color for hobbies section */
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.hobbies p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.hobbies ul {
+    list-style-type: none; /* Removes the default bullet points */
+    padding: 0;
+}
+
+.hobbies li {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.hobbies li:hover {
+    transform: scale(1.05);
+    background-color: #444;
+}
+
+.hobbies strong {
+    color: #ffa500; /* Same orange color for consistency */
+}
+
+.skills {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 1.5em;
+    margin: 1em auto;
+    max-width: 80%;
+    color: white;
+    animation: fadeIn 2s ease-out;
+}
+
+.skills h2 {
+    color: #32cd32; /* Lime green color for the skills section */
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.skills ul {
+    list-style-type: none; /* Removes the default bullet points */
+    padding: 0;
+}
+
+.skills li {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skills li:hover {
+    transform: scale(1.05);
+    background-color: #444;
+}
+
+.skills strong {
+    color: #32cd32; /* Same lime green color for consistency */
+}
