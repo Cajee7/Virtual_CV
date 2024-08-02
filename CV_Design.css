@@ -300,18 +300,18 @@ h2 {
 }
 
 .experience {
-    background-color: #1e1e1e;
-    border: 2px solid transparent;
+    background-color: #1e1e1e; /* Dark background for contrast */
+    border: 2px solid transparent; /* Border for visual separation */
     border-radius: 10px;
     padding: 1.5em;
     margin: 1em auto;
     max-width: 80%;
-    color: white;
+    color: white; /* Default text color */
     animation: fadeIn 2s ease-out;
 }
 
 .experience h2 {
-    color: #f805ab; 
+    color: #f805ab; /* Vibrant color for section heading */
     font-size: 2em;
     text-align: center;
     margin-bottom: 1em;
@@ -331,6 +331,18 @@ h2 {
 .experience li {
     font-size: 1.1em;
     margin: 0.5em 0;
+}
+
+/* Specific styling for the job title */
+.experience .job-title {
+    color: #4a90e2; /* Light blue for the job title */
+    font-size: 1.3em; /* Slightly larger font size */
+    margin-bottom: 0.5em; /* Space below the job title */
+}
+
+/* Add background color for the duties */
+.experience .duties {
+    color: white; /* Keep duties in white */
 }
 
 .hobbies {
@@ -416,3 +428,14 @@ h2 {
 .skills strong {
     color: #32cd32; /* Same lime green color for consistency */
 }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
